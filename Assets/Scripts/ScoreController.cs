@@ -30,4 +30,9 @@ public class ScoreController : MonoBehaviour
         scoreText.text = "Points: " + score.ToString();
     }
 
+    public void RemovePoint()
+    {
+        score -= 1;
+        scoreText.text = "Points: " + score.ToString();
+    }
 }
