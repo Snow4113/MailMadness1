@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{933ffca5-f477-485e-89fa-9f61c1a1d885}">
+		<property name="assetPath">
+			<value>Irish/Ritchie need letter.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.7548750000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ec191d76-624a-4b2a-961e-528a776cd7fd}</destination>
+		</relationship>
+	</object>
+</objects>
