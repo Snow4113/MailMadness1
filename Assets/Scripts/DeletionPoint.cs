@@ -9,14 +9,17 @@ public class DeletionPoint : MonoBehaviour
         if (collision.gameObject.CompareTag("Package1"))
         {
             Destroy(collision.gameObject);
+            ScoreController.instance.RemovePoint();
         }
         if (collision.gameObject.CompareTag("Package2"))
         {
             Destroy(collision.gameObject);
+            ScoreController.instance.RemovePoint();
         }
         if (collision.gameObject.CompareTag("Package3"))
         {
             Destroy(collision.gameObject);
+            ScoreController.instance.RemovePoint();
         }
     }
 }
