@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cd979cf7-e995-43ef-b0b1-2b4e2f6f32b5}">
+		<property name="assetPath">
+			<value>Irish/cousin o connor.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.3540833333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ec191d76-624a-4b2a-961e-528a776cd7fd}</destination>
+		</relationship>
+	</object>
+</objects>
