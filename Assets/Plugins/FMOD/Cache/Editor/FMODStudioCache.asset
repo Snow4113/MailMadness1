@@ -1,5 +1,52 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8744667672926366326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Voice.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Voice.bank
+  Name: Voice
+  StudioPath: bank:/Voice
+  lastModified: 638531228401196754
+  FileSizes:
+  - Name: Desktop
+    Value: 143616
+  Exists: 1
+--- !u!114 &-8637849927600169402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cousin o connor
+  m_EditorClassIdentifier: 
+  Path: event:/cousin o connor
+  Guid:
+    Data1: 341040905
+    Data2: 1317545224
+    Data3: -1025466703
+    Data4: -1805034079
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5354
 --- !u!114 &-7025470293536019458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,16 +117,18 @@ MonoBehaviour:
   - {fileID: 8270599270947382579}
   - {fileID: 6211120902675421029}
   - {fileID: 1762266779607759022}
+  - {fileID: -8744667672926366326}
   EditorEvents:
   - {fileID: -3068117923137215503}
   - {fileID: 7302735266989945593}
   - {fileID: -7025470293536019458}
+  - {fileID: -8637849927600169402}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6211120902675421029}
   StringsBanks:
   - {fileID: 8270599270947382579}
-  cacheTime: 638531211179591113
+  cacheTime: 638531228401196754
   cacheVersion: 131618
 --- !u!114 &1762266779607759022
 MonoBehaviour:
@@ -96,10 +145,10 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638531211179591113
+  lastModified: 638531228399414379
   FileSizes:
   - Name: Desktop
-    Value: 114176
+    Value: 28352
   Exists: 1
 --- !u!114 &6211120902675421029
 MonoBehaviour:
@@ -116,7 +165,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638531211178826399
+  lastModified: 638531228399083595
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -140,7 +189,7 @@ MonoBehaviour:
     Data3: 1177988758
     Data4: -190861129
   Banks:
-  - {fileID: 1762266779607759022}
+  - {fileID: -8744667672926366326}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -163,8 +212,8 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638531211178826399
+  lastModified: 638531228399093568
   FileSizes:
   - Name: Desktop
-    Value: 912
+    Value: 1006
   Exists: 1
