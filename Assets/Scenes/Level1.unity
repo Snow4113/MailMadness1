@@ -941,13 +941,13 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 784763085
-      Data2: 1092769891
-      Data3: 1177988758
-      Data4: -190861129
-    Path: event:/child labor
+      Data1: 341040905
+      Data2: 1317545224
+      Data3: -1025466703
+      Data4: -1805034079
+    Path: event:/cousin o connor
   Event: 
-  PlayEvent: 0
+  PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -1495,6 +1495,7 @@ GameObject:
   - component: {fileID: 668696104}
   - component: {fileID: 668696103}
   - component: {fileID: 668696102}
+  - component: {fileID: 668696106}
   m_Layer: 0
   m_Name: ChineseSpeaker
   m_TagString: Untagged
@@ -1580,6 +1581,37 @@ Transform:
   m_Father: {fileID: 184821511}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &668696106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668696101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 784763085
+      Data2: 1092769891
+      Data3: 1177988758
+      Data4: -190861129
+    Path: event:/child labor
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &689061838
 GameObject:
   m_ObjectHideFlags: 0
