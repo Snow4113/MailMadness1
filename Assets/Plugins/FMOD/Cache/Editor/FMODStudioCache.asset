@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7025470293536019458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/score Up
+  m_EditorClassIdentifier: 
+  Path: event:/score Up
+  Guid:
+    Data1: 475446253
+    Data2: 1298922120
+    Data3: 1689012617
+    Data4: -635898648
+  Banks:
+  - {fileID: 1762266779607759022}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3068117923137215503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,12 +73,13 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -3068117923137215503}
   - {fileID: 7302735266989945593}
+  - {fileID: -7025470293536019458}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6211120902675421029}
   StringsBanks:
   - {fileID: 8270599270947382579}
-  cacheTime: 638531202071288817
+  cacheTime: 638531211179591113
   cacheVersion: 131618
 --- !u!114 &1762266779607759022
 MonoBehaviour:
@@ -68,10 +96,10 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638531202071288817
+  lastModified: 638531211179591113
   FileSizes:
   - Name: Desktop
-    Value: 107904
+    Value: 114176
   Exists: 1
 --- !u!114 &6211120902675421029
 MonoBehaviour:
@@ -88,7 +116,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638531202069450148
+  lastModified: 638531211178826399
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -135,8 +163,8 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638531202069460121
+  lastModified: 638531211178826399
   FileSizes:
   - Name: Desktop
-    Value: 862
+    Value: 912
   Exists: 1
