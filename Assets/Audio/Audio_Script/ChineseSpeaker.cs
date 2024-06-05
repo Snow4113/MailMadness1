@@ -5,7 +5,7 @@ using FMODUnity;
 
 public class ChineseSpeaker : MonoBehaviour
 {
-    public ScoreController scoreController; // Reference to the ScoreController
+    public ScoreController scoreController; // Reference to the ScoreControlled  
     public string fmodEventPath1 = "event:/ChineseSpeaker/child labor"; // FMOD Event path for the voice line
     public string fmodEventPath2 = "event:/ChineseSpeaker/good work china";
     public string fmodEventPath3 = "event:/ChineseSpeaker/children work harda";
@@ -31,7 +31,7 @@ public class ChineseSpeaker : MonoBehaviour
 
     void Update()
     {
-        // Check if score is 5 and the voice line hasn't been played yet
+        // Check i and the voice line hasn't been played yet
         if (scoreController.score == 0 && !voiceLine1Played)
         {
             PlayVoiceLine1();
