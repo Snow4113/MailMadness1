@@ -7,7 +7,7 @@ public class IRASpeaker : MonoBehaviour
 {
    
     public ScoreController scoreController; // Reference to the ScoreController
-    public string fmodEventPath5 = "event:/IRA/ritchie need letter"; // FMOD Event path for the voice line
+    public string fmodEventPath5 = "event:/IRA/Ritchie need letter"; // FMOD Event path for the voice line
     public string fmodEventPath6 = "event:/IRA/cousin o connor";
     public string fmodEventPath7 = "event:/IRA/belfast";
 

@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Voice.bank
   Name: Voice
   StudioPath: bank:/Voice
-  lastModified: 638531953230414903
+  lastModified: 638532047863632750
   FileSizes:
   - Name: Desktop
-    Value: 856320
+    Value: 860352
   Exists: 1
 --- !u!114 &-8256280326688899240
 MonoBehaviour:
@@ -358,7 +358,7 @@ MonoBehaviour:
   - {fileID: 6211120902675421029}
   StringsBanks:
   - {fileID: 8270599270947382579}
-  cacheTime: 638531953230414903
+  cacheTime: 638532047863632750
   cacheVersion: 131618
 --- !u!114 &555686236215527988
 MonoBehaviour:
@@ -402,7 +402,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638531953229930977
+  lastModified: 638532047863133853
   FileSizes:
   - Name: Desktop
     Value: 28352
@@ -557,7 +557,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638531953229609492
+  lastModified: 638532047862782655
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -577,7 +577,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638531953229619465
+  lastModified: 638532047862802626
   FileSizes:
   - Name: Desktop
     Value: 1710
