@@ -35,7 +35,6 @@ public class EDLSpeaker : MonoBehaviour
         if (scoreController.score == 10 && !voiceLine8Played)
         {
             PlayVoiceLine8();
-
         }
         if (scoreController.score == 15 && !voiceLine9Played)
         {
