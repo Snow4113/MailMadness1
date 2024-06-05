@@ -15,12 +15,12 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Voice.bank
   Name: Voice
   StudioPath: bank:/Voice
-  lastModified: 638531921257832441
+  lastModified: 638531953230414903
   FileSizes:
   - Name: Desktop
-    Value: 143616
+    Value: 856320
   Exists: 1
---- !u!114 &-8637849927600169402
+--- !u!114 &-8256280326688899240
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,14 +30,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/cousin o connor
+  m_Name: event:/IRA/belfast
   m_EditorClassIdentifier: 
-  Path: event:/cousin o connor
+  Path: event:/IRA/belfast
   Guid:
-    Data1: 341040905
-    Data2: 1317545224
-    Data3: -1025466703
-    Data4: -1805034079
+    Data1: -369235421
+    Data2: 1162411013
+    Data3: -408206718
+    Data4: -513528602
   Banks:
   - {fileID: -8744667672926366326}
   IsStream: 0
@@ -46,7 +46,88 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 5354
+  Length: 0
+--- !u!114 &-8218111024532032482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChineseSpeaker/social credit bad
+  m_EditorClassIdentifier: 
+  Path: event:/ChineseSpeaker/social credit bad
+  Guid:
+    Data1: -464419909
+    Data2: 1157780633
+    Data3: -1703059783
+    Data4: -1500711724
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8066812371516316730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EDL/more by hour
+  m_EditorClassIdentifier: 
+  Path: event:/EDL/more by hour
+  Guid:
+    Data1: 1370207900
+    Data2: 1218719509
+    Data3: 489171596
+    Data4: -241338252
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7429512314190415644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EDL/birmingham 2
+  m_EditorClassIdentifier: 
+  Path: event:/EDL/birmingham 2
+  Guid:
+    Data1: 3797316
+    Data2: 1196098494
+    Data3: -37068873
+    Data4: -1778247769
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7025470293536019458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +155,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5844217863301959530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/IRA/cousin o connor
+  m_EditorClassIdentifier: 
+  Path: event:/IRA/cousin o connor
+  Guid:
+    Data1: 341040905
+    Data2: 1317545224
+    Data3: -1025466703
+    Data4: -1805034079
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5354
 --- !u!114 &-3068117923137215503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,6 +209,114 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2859661102378872393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EDL/died without justice
+  m_EditorClassIdentifier: 
+  Path: event:/EDL/died without justice
+  Guid:
+    Data1: 1691031813
+    Data2: 1301412265
+    Data3: -783591276
+    Data4: -1344633055
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2325613390867192493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChineseSpeaker/chinese royal mail
+  m_EditorClassIdentifier: 
+  Path: event:/ChineseSpeaker/chinese royal mail
+  Guid:
+    Data1: -940176735
+    Data2: 1218957001
+    Data3: 268383660
+    Data4: 408704954
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2276094404630017550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EDL/sea mines 2
+  m_EditorClassIdentifier: 
+  Path: event:/EDL/sea mines 2
+  Guid:
+    Data1: 1541148040
+    Data2: 1217894287
+    Data3: -2075179384
+    Data4: 1994320052
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-668214600424022586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChineseSpeaker/children work harda
+  m_EditorClassIdentifier: 
+  Path: event:/ChineseSpeaker/children work harda
+  Guid:
+    Data1: -906528511
+    Data2: 1196308728
+    Data3: 1637220759
+    Data4: -1516888942
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,16 +336,57 @@ MonoBehaviour:
   - {fileID: -8744667672926366326}
   EditorEvents:
   - {fileID: -3068117923137215503}
-  - {fileID: 7302735266989945593}
   - {fileID: -7025470293536019458}
-  - {fileID: -8637849927600169402}
+  - {fileID: -668214600424022586}
+  - {fileID: -2859661102378872393}
+  - {fileID: -5844217863301959530}
+  - {fileID: -8256280326688899240}
+  - {fileID: 4214902384130513051}
+  - {fileID: 3892329645925683081}
+  - {fileID: -7429512314190415644}
+  - {fileID: 4783458149698427783}
+  - {fileID: -2276094404630017550}
+  - {fileID: 8920808918576406316}
+  - {fileID: -8066812371516316730}
+  - {fileID: -2325613390867192493}
+  - {fileID: -8218111024532032482}
+  - {fileID: 5445082753057986326}
+  - {fileID: 555686236215527988}
+  - {fileID: 4885578855631768229}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6211120902675421029}
   StringsBanks:
   - {fileID: 8270599270947382579}
-  cacheTime: 638531921257832441
+  cacheTime: 638531953230414903
   cacheVersion: 131618
+--- !u!114 &555686236215527988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EDL/horizon 2
+  m_EditorClassIdentifier: 
+  Path: event:/EDL/horizon 2
+  Guid:
+    Data1: -639772456
+    Data2: 1131855592
+    Data3: -819767163
+    Data4: 1988511480
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1762266779607759022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,11 +402,146 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638531921257283646
+  lastModified: 638531953229930977
   FileSizes:
   - Name: Desktop
     Value: 28352
   Exists: 1
+--- !u!114 &3892329645925683081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChineseSpeaker/get back to work
+  m_EditorClassIdentifier: 
+  Path: event:/ChineseSpeaker/get back to work
+  Guid:
+    Data1: 690868288
+    Data2: 1287165987
+    Data3: -889301319
+    Data4: -302175017
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4214902384130513051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChineseSpeaker/good work china
+  m_EditorClassIdentifier: 
+  Path: event:/ChineseSpeaker/good work china
+  Guid:
+    Data1: -864911305
+    Data2: 1262221532
+    Data3: -1314172506
+    Data4: -795473537
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4783458149698427783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChineseSpeaker/I go home now
+  m_EditorClassIdentifier: 
+  Path: event:/ChineseSpeaker/I go home now
+  Guid:
+    Data1: 101422679
+    Data2: 1298923003
+    Data3: 863381125
+    Data4: 891433618
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4885578855631768229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/IRA/Ritchie need letter
+  m_EditorClassIdentifier: 
+  Path: event:/IRA/Ritchie need letter
+  Guid:
+    Data1: 320817628
+    Data2: 1238568285
+    Data3: 1686709388
+    Data4: 977364709
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5445082753057986326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChineseSpeaker/child labor
+  m_EditorClassIdentifier: 
+  Path: event:/ChineseSpeaker/child labor
+  Guid:
+    Data1: 784763085
+    Data2: 1092769891
+    Data3: 1177988758
+    Data4: -190861129
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8446
 --- !u!114 &6211120902675421029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,38 +557,11 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638531921256362826
+  lastModified: 638531953229609492
   FileSizes:
   - Name: Desktop
     Value: 1036
   Exists: 1
---- !u!114 &7302735266989945593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/child labor
-  m_EditorClassIdentifier: 
-  Path: event:/child labor
-  Guid:
-    Data1: 784763085
-    Data2: 1092769891
-    Data3: 1177988758
-    Data4: -190861129
-  Banks:
-  - {fileID: -8744667672926366326}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 8446
 --- !u!114 &8270599270947382579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,8 +577,35 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638531921256372802
+  lastModified: 638531953229619465
   FileSizes:
   - Name: Desktop
-    Value: 1006
+    Value: 1710
   Exists: 1
+--- !u!114 &8920808918576406316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EDL/rafts 2
+  m_EditorClassIdentifier: 
+  Path: event:/EDL/rafts 2
+  Guid:
+    Data1: -612212839
+    Data2: 1101164733
+    Data3: 2024620958
+    Data4: -1998403182
+  Banks:
+  - {fileID: -8744667672926366326}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
