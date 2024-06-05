@@ -19,3 +19,67 @@
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 24864
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 3488
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000E5FE62EE28
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8B064130
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8B0640F0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8B064210
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8B0642D0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000023950D11BE8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='splash_throw_', format=5, channels=2, frequency=48000, lengthbytes=19904, lengthpcm=52757, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.730103.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 24864
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 3488
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000E5FE62EE28
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC8B064130
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC8B0640F0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC8B064210
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC8B0642D0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002395CCA6FB8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Score Up', format=5, channels=2, frequency=48000, lengthbytes=4800, lengthpcm=19891, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.282440.
+[LOG] SoundI::release                          :  (000002395747C6D8)
+[LOG] SoundI::release                          :     cousin o connor (000002395CE333F8)
+[LOG] SoundI::release                          :  (000002395F7FA078)
+[LOG] SoundI::release                          :     belfast (00000238586F5938)
+[LOG] SoundI::release                          :  (000002395F7FA1E8)
+[LOG] SoundI::release                          :     good work china (000002395D258848)
+[LOG] SoundI::release                          :  (000002395BC75388)
+[LOG] SoundI::release                          :     Score Up (0000023962D4BB98)
+[LOG] SoundI::release                          :  (000002395F7FA918)
+[LOG] SoundI::release                          :     Ritchie need letter (000002395D257E88)
+[LOG] SoundI::release                          :  (000002395F7F9F08)
+[LOG] SoundI::release                          :     birmingham 2 (00000238586F5AD8)
+[LOG] SoundI::release                          :  (000002395F7FA7A8)
+[LOG] SoundI::release                          :     children work harda (00000238586F62F8)
+[LOG] SoundI::release                          :  (000002395D3CDDB8)
+[LOG] SoundI::release                          :     splash_throw_ (0000023958351F78)
+[LOG] SoundI::release                          :  (000002395747C3F8)
+[LOG] SoundI::release                          :     horizon 2 (000002395CE33F58)
+[LOG] SoundI::release                          :  (000002395F7FA358)
+[LOG] SoundI::release                          :     chinese royal mail (00000238586F5FB8)
+[LOG] SoundI::release                          :  (000002395F7F9D98)
+[LOG] SoundI::release                          :     child labor (00000238586F6498)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
