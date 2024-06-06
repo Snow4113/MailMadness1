@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Voice.bank
   Name: Voice
   StudioPath: bank:/Voice
-  lastModified: 638532844863789800
+  lastModified: 638532944050311946
   FileSizes:
   - Name: Desktop
-    Value: 860352
+    Value: 813856
   Exists: 1
 --- !u!114 &-8256280326688899240
 MonoBehaviour:
@@ -263,33 +263,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2276094404630017550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/EDL/sea mines 2
-  m_EditorClassIdentifier: 
-  Path: event:/EDL/sea mines 2
-  Guid:
-    Data1: 1541148040
-    Data2: 1217894287
-    Data3: -2075179384
-    Data4: 1994320052
-  Banks:
-  - {fileID: -8744667672926366326}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-668214600424022586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +318,6 @@ MonoBehaviour:
   - {fileID: 3892329645925683081}
   - {fileID: -7429512314190415644}
   - {fileID: 4783458149698427783}
-  - {fileID: -2276094404630017550}
   - {fileID: 8920808918576406316}
   - {fileID: -8066812371516316730}
   - {fileID: -2325613390867192493}
@@ -358,7 +330,7 @@ MonoBehaviour:
   - {fileID: 6211120902675421029}
   StringsBanks:
   - {fileID: 8270599270947382579}
-  cacheTime: 638532844863789800
+  cacheTime: 638532944050311946
   cacheVersion: 131618
 --- !u!114 &555686236215527988
 MonoBehaviour:
@@ -402,7 +374,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638532844863089144
+  lastModified: 638532944049831686
   FileSizes:
   - Name: Desktop
     Value: 28352
@@ -557,7 +529,7 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638532844862821195
+  lastModified: 638532944049600773
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -577,10 +549,10 @@ MonoBehaviour:
   Path: ../../../Desktop/Mail Madness/FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638532844862831202
+  lastModified: 638532944049610747
   FileSizes:
   - Name: Desktop
-    Value: 1710
+    Value: 1668
   Exists: 1
 --- !u!114 &8920808918576406316
 MonoBehaviour:
