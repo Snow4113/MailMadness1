@@ -7,7 +7,6 @@ using FMODUnity;
 public class ScoreController : MonoBehaviour
 {
     //[serializedfield] private EventReference ScoreUp;
-    public static ScoreController instance;
 
     public Text scoreText;
     public Text highscoreText;
@@ -17,8 +16,9 @@ public class ScoreController : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
     }
+
+
 
     void Start()
     {

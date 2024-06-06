@@ -5,72 +5,101 @@ using FMODUnity;
 
 public class ChineseSpeaker : MonoBehaviour
 {
-    public ScoreController scoreController; // Reference to the ScoreControlled  
-    public string fmodEventPath1 = "event:/ChineseSpeaker/child labor"; // FMOD Event path for the voice line
-    public string fmodEventPath2 = "event:/ChineseSpeaker/good work china";
-    public string fmodEventPath3 = "event:/ChineseSpeaker/children work harda";
-    public string fmodEventPath4 = "event:/ChineseSpeaker/chinese royal mail";
+    public GameObject[] ChineseDialoguePrefabs;
+    private bool flag, flag2, flag3, flag4;
+    public ScoreController scoreController; // Reference to the ScoreController
+  /*  public string fmodEventPath8 = "event:/EDL/birmingham 2"; // FMOD Event path for the voice line
+    public string fmodEventPath9 = "event:/EDL/horizon 2";
+    public string fmodEventPath10 = "event:/EDL/rafs 2";
+    public string fmodEventPath11 = "event:/EDL/sea mines 2";
 
-    private FMOD.Studio.EventInstance voiceLineEvent1;
-    private FMOD.Studio.EventInstance voiceLineEvent2;
-    private FMOD.Studio.EventInstance voiceLineEvent3;
-    private FMOD.Studio.EventInstance voiceLineEvent4;
-    private bool voiceLine1Played = false; // To ensure the voice line is played only once
-    private bool voiceLine2Played = false;
-    private bool voiceLine3Played = false;
-    private bool voiceLine4Played = false;
+    private FMOD.Studio.EventInstance voiceLineEvent8;
+    private FMOD.Studio.EventInstance voiceLineEvent9;
+    private FMOD.Studio.EventInstance voiceLineEvent10;
+    private FMOD.Studio.EventInstance voiceLineEvent11;
+
+    private bool voiceLine8Played = false; // To ensure the voice line is played only once
+    private bool voiceLine9Played = false;
+    private bool voiceLine10Played = false;
+    private bool voiceLine11Played = false;*/
 
     void Start()
     {
+        flag = false;
         // Create an instance of the voice line event
-        voiceLineEvent1 = RuntimeManager.CreateInstance(fmodEventPath1);
-        voiceLineEvent2 = RuntimeManager.CreateInstance(fmodEventPath2);
-        voiceLineEvent3 = RuntimeManager.CreateInstance(fmodEventPath3);
-        voiceLineEvent4 = RuntimeManager.CreateInstance(fmodEventPath4);
+        /* voiceLineEvent8 = RuntimeManager.CreateInstance(fmodEventPath8);
+         voiceLineEvent9 = RuntimeManager.CreateInstance(fmodEventPath9);
+         voiceLineEvent10 = RuntimeManager.CreateInstance(fmodEventPath10);
+         voiceLineEvent11 = RuntimeManager.CreateInstance(fmodEventPath11);*/
     }
 
     void Update()
     {
-        // Check i and the voice line hasn't been played yet
-        if (scoreController.score == 0 && !voiceLine1Played)
+        // Check if score is 5 and the voice line hasn't been played yet
+        if (scoreController.score == 10)
         {
-            PlayVoiceLine1();
-
+            PlayVoiceLine8();
         }
-        if(scoreController.score == 20 && !voiceLine2Played)
+         else  if (scoreController.score == 15 )
         {
-            PlayVoiceLine2();
+            PlayVoiceLine9();
         }
-        if (scoreController.score == 30 && !voiceLine3Played)
+        else if (scoreController.score == 45)
         {
-            PlayVoiceLine3();
+            PlayVoiceLine10();
         }
-        if (scoreController.score == 50 && !voiceLine4Played)
+        else if (scoreController.score == 35)
         {
-            PlayVoiceLine4();
+            PlayVoiceLine11();
         }
-    }
-
-    void PlayVoiceLine1()
-    {
-        // Start the voice line event
-        voiceLineEvent1.start();
-        voiceLine1Played = true; // Mark the voice line as played
-    }
-    void PlayVoiceLine2()
-    {
-        voiceLineEvent2.start();
-        voiceLine2Played = true; 
     }
 
-    void PlayVoiceLine3()
+    void PlayVoiceLine8()
     {
-        voiceLineEvent3.start();
-        voiceLine3Played = true; 
+        if (!flag) { 
+        GameObject chineseVoiceLineInstance = Instantiate(ChineseDialoguePrefabs[0]);
+        chineseVoiceLineInstance.transform.position = this.transform.position;
+        Destroy(chineseVoiceLineInstance, 10f);
+         flag = true;
+         }
+     
     }
-    void PlayVoiceLine4()
+    void PlayVoiceLine9()
     {
-        voiceLineEvent4.start();
-        voiceLine4Played = true;
+        
+        if (!flag2)
+        {
+            GameObject chineseVoiceLineInstance = Instantiate(ChineseDialoguePrefabs[1]);
+            chineseVoiceLineInstance.transform.position = this.transform.position;
+
+            Destroy(chineseVoiceLineInstance, 10f);
+            flag2 = true;
+
+        }
     }
+
+    void PlayVoiceLine10()
+    {
+        if (!flag3)
+        {
+
+            GameObject chineseVoiceLineInstance = Instantiate(ChineseDialoguePrefabs[2]);
+            chineseVoiceLineInstance.transform.position = this.transform.position;
+
+            Destroy(chineseVoiceLineInstance, 10f);
+            flag3 = true;
+        }
+        }
+    void PlayVoiceLine11()
+    {
+        if (!flag4)
+        {
+
+            GameObject chineseVoiceLineInstance = Instantiate(ChineseDialoguePrefabs[3]);
+            chineseVoiceLineInstance.transform.position = this.transform.position;
+
+            Destroy(chineseVoiceLineInstance, 10f);
+            flag4 = true;
+        }
+        }
 }
