@@ -7,12 +7,8 @@ public class ChineseSpeaker : MonoBehaviour
 {
     public GameObject[] ChineseDialoguePrefabs;
     private bool flag, flag2, flag3, flag4;
-    public ScoreController scoreController; // Reference to the ScoreController
-  /*  public string fmodEventPath8 = "event:/EDL/birmingham 2"; // FMOD Event path for the voice line
-    public string fmodEventPath9 = "event:/EDL/horizon 2";
-    public string fmodEventPath10 = "event:/EDL/rafs 2";
-    public string fmodEventPath11 = "event:/EDL/sea mines 2";
-
+    public ScoreController scoreController; 
+    /*
     private FMOD.Studio.EventInstance voiceLineEvent8;
     private FMOD.Studio.EventInstance voiceLineEvent9;
     private FMOD.Studio.EventInstance voiceLineEvent10;
@@ -36,7 +32,7 @@ public class ChineseSpeaker : MonoBehaviour
     void Update()
     {
         // Check if score is 5 and the voice line hasn't been played yet
-        if (scoreController.score == 10)
+        if (scoreController.score == 0)
         {
             PlayVoiceLine8();
         }
@@ -44,11 +40,11 @@ public class ChineseSpeaker : MonoBehaviour
         {
             PlayVoiceLine9();
         }
-        else if (scoreController.score == 45)
+        else if (scoreController.score == 35)
         {
             PlayVoiceLine10();
         }
-        else if (scoreController.score == 35)
+        else if (scoreController.score == 45)
         {
             PlayVoiceLine11();
         }
