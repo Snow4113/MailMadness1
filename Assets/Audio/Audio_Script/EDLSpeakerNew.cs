@@ -7,14 +7,9 @@ using static Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetrics;
 public class EDLSpeakerNew : MonoBehaviour
 {
     public GameObject[] EDLDialoguePrefabs;
-    private bool flag, flag2, flag3, flag4;
-
-    public ScoreController scoreController; // Reference to the ScoreControlled  
-    /* public string fmodEventPath1 = "event:/ChineseSpeaker/child labor"; // FMOD Event path for the voice line
-     public string fmodEventPath2 = "event:/ChineseSpeaker/good work china";
-     public string fmodEventPath3 = "event:/ChineseSpeaker/children work harda";
-     public string fmodEventPath4 = "event:/ChineseSpeaker/chinese royal mail";
-
+    private bool flag5, flag6, flag7, flag8;
+    public ScoreController scoreController; 
+    /*
      private FMOD.Studio.EventInstance voiceLineEvent1;
      private FMOD.Studio.EventInstance voiceLineEvent2;
      private FMOD.Studio.EventInstance voiceLineEvent3;
@@ -27,7 +22,7 @@ public class EDLSpeakerNew : MonoBehaviour
 
     void Start()
     {
-        flag = false;
+        flag5 = false;
 
         // Create an instance of the voice line event
         /*    voiceLineEvent1 = RuntimeManager.CreateInstance(fmodEventPath1);
@@ -39,20 +34,20 @@ public class EDLSpeakerNew : MonoBehaviour
     void Update()
     {
         // Check i and the voice line hasn't been played yet
-        if (scoreController.score == 0)
+        if (scoreController.score == 10)
         {
             PlayVoiceLine1();
 
         }
-        else if(scoreController.score == 20 )
+        else if(scoreController.score == 20)
         {
             PlayVoiceLine2();
         }
-        else if (scoreController.score == 30 )
+        else if (scoreController.score == 30)
         {
             PlayVoiceLine3();
         }
-        else if (scoreController.score == 50 )
+        else if (scoreController.score == 50)
         {
             PlayVoiceLine4();
         }
@@ -60,44 +55,44 @@ public class EDLSpeakerNew : MonoBehaviour
 
     void PlayVoiceLine1()
     {
-        if (!flag)
+        if (!flag5)
         {
             GameObject EDLVoiceLineInstance = Instantiate(EDLDialoguePrefabs[0]);
             EDLVoiceLineInstance.transform.position = this.transform.position;
             Destroy(EDLVoiceLineInstance, 10f);
-            flag = true;
+            flag5 = true;
         }
     }
     void PlayVoiceLine2()
     {
 
-        if (!flag2)
+        if (!flag6)
         {
             GameObject EDLVoiceLineInstance = Instantiate(EDLDialoguePrefabs[1]);
             EDLVoiceLineInstance.transform.position = this.transform.position;
             Destroy(EDLVoiceLineInstance, 10f);
-            flag3 = true;
+            flag6 = true;
         }
     }
 
     void PlayVoiceLine3()
     {
-        if (!flag3)
+        if (!flag7)
         {
             GameObject EDLVoiceLineInstance = Instantiate(EDLDialoguePrefabs[2]);
             EDLVoiceLineInstance.transform.position = this.transform.position;
             Destroy(EDLVoiceLineInstance, 10f);
-            flag3 = true;
+            flag7 = true;
         }
     }
     void PlayVoiceLine4()
     {
-        if (!flag4)
+        if (!flag8)
         {
             GameObject EDLVoiceLineInstance = Instantiate(EDLDialoguePrefabs[3]);
             EDLVoiceLineInstance.transform.position = this.transform.position;
             Destroy(EDLVoiceLineInstance, 10f);
-            flag4 = true;
+            flag8 = true;
         }
     }
 }
