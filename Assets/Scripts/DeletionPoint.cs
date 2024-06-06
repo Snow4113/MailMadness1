@@ -3,23 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 public class DeletionPoint : MonoBehaviour
 {
+    public ScoreController controller;
 
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Package1"))
         {
             Destroy(collision.gameObject);
-            ScoreController.instance.RemovePoint();
+            controller.RemovePoint();
         }
         if (collision.gameObject.CompareTag("Package2"))
         {
             Destroy(collision.gameObject);
-            ScoreController.instance.RemovePoint();
+            controller.RemovePoint();
         }
         if (collision.gameObject.CompareTag("Package3"))
         {
             Destroy(collision.gameObject);
-            ScoreController.instance.RemovePoint();
+            controller.RemovePoint();
         }
     }
 }
