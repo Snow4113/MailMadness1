@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ScoreController : MonoBehaviour
 {
+
+    public GameOverScreen gameOverScreen;
     public static ScoreController instance;
 
     public Text scoreText;
@@ -12,6 +14,11 @@ public class ScoreController : MonoBehaviour
 
     int score = 0;
     int highscore = 0;
+
+    public void GameOver()
+    {
+        GameOverScreen.Setup(score <= -5);
+    }
 
     private void Awake()
     {
