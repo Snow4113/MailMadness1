@@ -908,7 +908,6 @@ GameObject:
   - component: {fileID: 343927419}
   - component: {fileID: 343927418}
   - component: {fileID: 343927417}
-  - component: {fileID: 343927423}
   - component: {fileID: 343927424}
   m_Layer: 0
   m_Name: IRASpeaker
@@ -996,18 +995,6 @@ Transform:
   m_Father: {fileID: 184821511}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &343927423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343927416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de428444b29ad542ab8326e6cf9dde7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &343927424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3265,6 +3252,51 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &1884769780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1884769782}
+  - component: {fileID: 1884769781}
+  m_Layer: 0
+  m_Name: FMODBankLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1884769781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884769780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2e713926adcaf428a7a388e79073e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  banks: []
+--- !u!4 &1884769782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884769780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9055772, y: 4.21, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1954301046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3338,7 +3370,7 @@ GameObject:
   - component: {fileID: 1958344284}
   - component: {fileID: 1958344283}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: pool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
