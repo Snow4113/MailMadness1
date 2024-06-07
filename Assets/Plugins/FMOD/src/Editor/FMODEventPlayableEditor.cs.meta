@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: fa325be8441506c4bb1462c8333ccce9
 timeCreated: 1523230773
+<<<<<<< HEAD
 licenseType: Store
+=======
+licenseType: Free
+>>>>>>> 1232ae1a4caacbf574588484bbc39ddf9410ea19
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
