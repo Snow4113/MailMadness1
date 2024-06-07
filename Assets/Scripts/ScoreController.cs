@@ -6,7 +6,9 @@ using FMODUnity;
 
 public class ScoreController : MonoBehaviour
 {
-    //[serializedfield] private EventReference ScoreUp;
+    [SerializeField] private EventReference ScoreUp;
+    [SerializeField] public GameObject gameOver;
+    public static ScoreController instance;
 
     public Text scoreText;
     public Text highscoreText;
@@ -14,13 +16,27 @@ public class ScoreController : MonoBehaviour
     public int score = 0;
     int highscore = 0;
 
-    private void Awake()
+
+    //public void GameOver()
+    
+        //GameOverScreen.Setup(score <= -5);
+    
+
+    public void Update()
     {
+        if (score >= -5)
+        {
+            GameOverScreen(!gameOver.activeInHierarchy);
+        }
+    }
+    public void GameOverScreen(bool status)
+    {
+        //If status == true pause | if status == false unpause
+        gameOver.SetActive(status);
     }
 
 
-
-    void Start()
+        void Start()
     {
         scoreText.text = "Points: " + score.ToString();
         highscoreText.text = "Highscore: " + highscore.ToString();
