@@ -17,7 +17,7 @@ public class ScoreController : MonoBehaviour
 
     public void GameOver()
     {
-        GameOverScreen.Setup(score <= -5);
+        GameOverScreen.Setup(score <= -5); // this is so that the game knows at -5 points to lose the game
     }
 
     private void Awake()

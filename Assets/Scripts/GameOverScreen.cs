@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameOverScreen : MonoBehaviour
+public class GameOverScreen : MonoBehaviour //this will atovate over game over screen
 {
     public Text pointsText;
     public void Setup(int score)
